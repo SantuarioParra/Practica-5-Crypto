@@ -168,7 +168,7 @@ def DESC(tipo, llaves, modo, archivo, contador):  # cifrado DES
                     salida = open("cipher" + archivo, "wb")
                     salida.write(cipherText)
                     salida.close()
-                    llaves = open(archivo + ".key", "w")
+                    llaves = open(archivo + ".key", "wb")
                     llaves.write(b64.standard_b64encode(key))
                     llaves.close()
                 except FileNotFoundError:
@@ -183,7 +183,7 @@ def DESC(tipo, llaves, modo, archivo, contador):  # cifrado DES
                     salida = open("cipher" + archivo, "wb")
                     salida.write(cipherText)
                     salida.close()
-                    llaves = open(archivo + ".key", "w")
+                    llaves = open(archivo + ".key", "wb")
                     llaves.write(b64.standard_b64encode(key))
                     llaves.close()
                 except FileNotFoundError:
@@ -198,7 +198,7 @@ def DESC(tipo, llaves, modo, archivo, contador):  # cifrado DES
                     salida = open("cipher" + archivo, "wb")
                     salida.write(cipherText)
                     salida.close()
-                    llaves = open(archivo + ".key", "w")
+                    llaves = open(archivo + ".key", "wb")
                     llaves.write(b64.standard_b64encode(key))
                     llaves.close()
                 except FileNotFoundError:
@@ -215,7 +215,7 @@ def DESC(tipo, llaves, modo, archivo, contador):  # cifrado DES
                     salida = open("cipher" + archivo, "wb")
                     salida.write(cipherText)
                     salida.close()
-                    llaves = open(archivo + ".key", "w")
+                    llaves = open(archivo + ".key", "wb")
                     llaves.write(b64.standard_b64encode(key))
                     llaves.close()
                 except FileNotFoundError:
@@ -230,7 +230,7 @@ def DESC(tipo, llaves, modo, archivo, contador):  # cifrado DES
                     salida = open("cipher" + archivo, "wb")
                     salida.write(cipherText)
                     salida.close()
-                    llaves = open(archivo + ".key", "w")
+                    llaves = open(archivo + ".key", "wb")
                     llaves.write(b64.standard_b64encode(key))
                     llaves.close()
                 except FileNotFoundError:
@@ -245,7 +245,7 @@ def DESC(tipo, llaves, modo, archivo, contador):  # cifrado DES
                     salida = open("cipher" + archivo, "wb")
                     salida.write(cipherText)
                     salida.close()
-                    llaves = open(archivo + ".key", "w")
+                    llaves = open(archivo + ".key", "wb")
                     llaves.write(b64.standard_b64encode(key))
                     llaves.close()
                 except FileNotFoundError:
@@ -355,9 +355,10 @@ def DESD(tipo, llaves, modo, archivo, contador):  # Descifrado DES
             plaintext = data.read()
             key = b64.standard_b64decode(data2.read())
             iv = plaintext[:DES3.block_size]
-            cipher = DES3.new(key, DES3.MODE_OFB, iv)
+            cipher = DES3.new(key, DES3.MODE_CBC, iv)
             msg = cipher.decrypt(plaintext[DES3.block_size:])
-            msg = padding.unpad(msg,DES3.block_size)
+            msg = padding.unpad(msg, DES3.block_size)
+
             salida = open("D" + archivo, "wb")
             salida.write(msg)
             salida.close()
