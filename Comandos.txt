@@ -1,0 +1,85 @@
+-d -t EEE -kn 3 -k 500kb.jpg.key -m CBC -f 500kb.jpg
+-d -t EEE -kn 3 -k 1M.png.key -m CBC -f 1M.png
+-d -t EEE -kn 3 -k 5M.jpg.key -m CBC -f 5M.jpg
+-d -t EEE -kn 3 -k 10M.rar.key -m CBC -f 10M.rar
+
+-d -t EEE -kn 3 -k 500kb.jpg.key -m OFB -f 500kb.jpg
+-d -t EEE -kn 3 -k 1M.png.key -m OFB -f 1M.png
+-d -t EEE -kn 3 -k 5M.jpg.key -m OFB -f 5M.jpg
+-d -t EEE -kn 3 -k 10M.rar.key -m OFB -f 10M.rar
+
+-d -t EEE -kn 3 -k 500kb.jpg.key -m CFB -f 500kb.jpg
+-d -t EEE -kn 3 -k 1M.png.key -m CFB -f 1M.png
+-d -t EEE -kn 3 -k 5M.jpg.key -m CFB -f 5M.jpg
+-d -t EEE -kn 3 -k 10M.rar.key -m CFB -f 10M.rar
+--------------------------------------------------------------------2 llaves
+-d -t EEE -kn 2 -k 500kb.jpg.key -m CBC -f 500kb.jpg
+-d -t EEE -kn 2 -k 1M.png.key -m CBC -f 1M.png
+-d -t EEE -kn 2 -k 5M.jpg.key -m CBC -f 5M.jpg
+-d -t EEE -kn 2 -k 10M.rar.key -m CBC -f 10M.rar
+
+-d -t EEE -kn 2 -k 500kb.jpg.key -m OFB -f 500kb.jpg
+-d -t EEE -kn 2 -k 1M.png.key -m OFB -f 1M.png
+-d -t EEE -kn 2 -k 5M.jpg.key -m OFB -f 5M.jpg
+-d -t EEE -kn 2 -k 10M.rar.key -m OFB -f 10M.rar
+
+-d -t EEE -kn 2 -k 500kb.jpg.key -m CFB -f 500kb.jpg
+-d -t EEE -kn 2 -k 1M.png.key -m CFB -f 1M.png
+-d -t EEE -kn 2 -k 5M.jpg.key -m CFB -f 5M.jpg
+-d -t EEE -kn 2 -k 10M.rar.key -m CFB -f 10M.rar
+
+----------------------------------------------------EDE
+-d -t EDE -kn 3 -k 500kb.jpg.key -m CBC -f 500kb.jpg
+-d -t EDE -kn 3 -k 1M.png.key -m CBC -f 1M.png
+-d -t EDE -kn 3 -k 5M.jpg.key -m CBC -f 5M.jpg
+-d -t EDE -kn 3 -k 10M.rar.key -m CBC -f 10M.rar
+
+-d -t EDE -kn 3 -k 500kb.jpg.key -m OFB -f 500kb.jpg
+-d -t EDE -kn 3 -k 1M.png.key -m OFB -f 1M.png
+-d -t EDE -kn 3 -k 5M.jpg.key -m OFB -f 5M.jpg
+-d -t EDE -kn 3 -k 10M.rar.key -m OFB -f 10M.rar
+
+-d -t EDE -kn 3 -k 500kb.jpg.key -m CFB -f 500kb.jpg
+-d -t EDE -kn 3 -k 1M.png.key -m CFB -f 1M.png
+-d -t EDE -kn 3 -k 5M.jpg.key -m CFB -f 5M.jpg
+-d -t EDE -kn 3 -k 10M.rar.key -m CFB -f 10M.rar
+--------------------------------------------------------------------2 llaves
+-d -t EDE -kn 2 -k 500kb.jpg.key -m CBC -f 500kb.jpg
+-d -t EDE -kn 2 -k 1M.png.key -m CBC -f 1M.png
+-d -t EDE -kn 2 -k 5M.jpg.key -m CBC -f 5M.jpg
+-d -t EDE -kn 2 -k 10M.rar.key -m CBC -f 10M.rar
+
+-d -t EDE -kn 2 -k 500kb.jpg.key -m OFB -f 500kb.jpg
+-d -t EDE -kn 2 -k 1M.png.key -m OFB -f 1M.png
+-d -t EDE -kn 2 -k 5M.jpg.key -m OFB -f 5M.jpg
+-d -t EDE -kn 2 -k 10M.rar.key -m OFB -f 10M.rar
+
+-d -t EDE -kn 2 -k 500kb.jpg.key -m CFB -f 500kb.jpg
+-d -t EDE -kn 2 -k 1M.png.key -m CFB -f 1M.png
+-d -t EDE -kn 2 -k 5M.jpg.key -m CFB -f 5M.jpg
+-d -t EDE -kn 2 -k 10M.rar.key -m CFB -f 10M.rar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
