@@ -11,8 +11,8 @@ import base64 as b64
 def DESC(tipo, llaves, modo, archivo, contador):  # cifrado DES
     if tipo == "EEE":
         if llaves == 2:
-            key1 = random.get_random_bytes(8)
-            key2 = key3 = random.get_random_bytes(8)
+            key2 = random.get_random_bytes(8)
+            key1 = key3 = random.get_random_bytes(8)
             if modo == "CBC":
                 try:
                     cipher = DES.new(key1, DES.MODE_CBC)
